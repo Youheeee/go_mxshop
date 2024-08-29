@@ -20,6 +20,7 @@ message PasswordCheckInfo{
 message CheckResponse{
   bool success = 1;
 }
+
 message PageInfo{
   uint32 pn = 1;
   uint32 pSize = 2;
